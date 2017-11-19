@@ -27,6 +27,7 @@ class App extends Component {
         <h1>ravenous</h1>
         <SearchBar searchYelp={this.searchYelp} />
         <BusinessList businesses={this.state.businesses} />
+        <footer>comments via Twitter @jjayclare</footer>
       </div>
     );
   }
